@@ -13,7 +13,10 @@ def querySingleYear(term, year):
 
 	#this function calls the NYT api to get how many responses there are in a year
 	#r = requests.get('http://api.nytimes.com/svc/search/v2/articlesearch.json?q=gaza&begin_date=20130101&end_date=20131231&api-key=f24f8ba49940b4a690c352e10bd1e387:2:69647018')
-	#mykey = 'f24f8ba49940b4a690c352e10bd1e387:2:69647018'
+	
+    # MAKE SURE TO INSERT API KEY OR UNCOMMENT THIS LINE
+    #mykey = 'f24f8ba49940b4a690c352e10bd1e387:2:69647018'
+    
 
 	requestString = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=%s&begin_date=%d0101&end_date=%d1231&api-key=%s' % (term, year, year, mykey)
 
