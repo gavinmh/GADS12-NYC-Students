@@ -1,0 +1,30 @@
+FB events,Invited (x),Going (y),X bar,Y bar,Variance (x),"cov (x, y)",
+Back to School,422,80,-383,-38.2,"146,689.00",14630.6,
+I heart house music,216,55,-589,-63.2,"346,921.00",37224.8,
+Open Mic,184,43,-621,-75.2,"385,641.00",46699.2,
+Communication Breakdown,639,65,-166,-53.2,"27,556.00",8831.2,
+Luck of the Irish,291,67,-514,-51.2,"264,196.00",26316.8,
+Red Octiber,202,34,-603,-84.2,"363,609.00",50772.6,
+Occupy House,96,34,-709,-84.2,"502,681.00",59697.8,
+House Warming,341,36,-464,-82.2,"215,296.00",38140.8,
+Cave Rave,334,35,-471,-83.2,"221,841.00",39187.2,
+Trail Mix,"1,300",142,495,23.8,"245,025.00",11781,
+,,,,,,,
+SUM,"4,025",591,,,"292,750.75",33425.65,
+MEAN,805,118.2,,,,,
+,,,,,,,
+BETA,0.114177846,,,,,,
+ALPHA,26.28683411,,,,,,
+,,,,,,,
+,,,,,,,
+Test Set,,,,,,,
+FB event,Invited,Going,cov x,cov y,ss_tot,Predicted Attendance,ss_res
+Pinesapple Express,252,57,49.75,12.75,162.5625,55.06,3.764953247
+Coco Jamboo,163,31,-39.25,-13.25,175.5625,44.9,193.1494835
+House Picking,227,49,24.75,4.75,22.5625,52.21,10.2733398
+House of Cards,167,40,-35.25,-4.25,18.0625,45.35,28.67103822
+,,,,,,,
+Mean,202.25,44.25,,SUM,378.75,,235.8588148
+r_squared,0.377270456,<- r_squared: 38% of the total variation of the y values (going) is explained by the variation in x (invited).,,,,,
+,,,,,,,
+The explanatory variable is the Amount of People attending the event. The response variable is the Amount of People invited to the event. Only 38% of the people going is explained by the people invited. ,,,,,,,
