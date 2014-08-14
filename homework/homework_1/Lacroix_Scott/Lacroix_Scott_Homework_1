@@ -1,0 +1,55 @@
+Lacroix Scott Homework 1													
+													
+I would like to identlfy the relationship between the ratings of products and their price													
+The explanatory variable would be the rating													
+The responsive variable would be the price													
+First we can solve for the value of Beta using the covariance and variance of the training set													
+*obervation, my beta seems really high													
+Once Beta was solved, you can solve for Alpha													
+y=a+bx													
+With this information I can predict the Y value of the testing set													
+then will use the r-squared calculation to calculate the proportion of the variance in the reponse variable that is explained by the model													
+from the r-squared value below, we know that we see that there is some-what of a relationship between the rating and the price.													
+													
+													
+													
+													
+			Solving for Variance		xbar	2.9		covariance	ybar	21.2		Beta = cov/var	
+Number of items	Rating(x)	Price(y)	x-xbar	x-xbar^2	Variance			x-xbar	y-ybar	x-xbar*y-ybar	covariance	7.617940971	
+1	4.5	50	1.6	2.5	2.4			1.6	28.8	45.2	18.21		
+2	2	12	-0.9	0.9				-0.9	-9.2	8.6		Alpha=bar - b(xbar)	
+3	1	10	-1.9	3.7				-1.9	-11.2	21.6		-1.2	
+4	4.1	32	1.2	1.4				1.2	10.8	12.6			
+5	4	7	1.1	1.1				1.1	-14.2	-15.1			
+						Beta = cov/var							
+Testing Set	Testx	Testy	Predicted Y	xbar	3.65	7.62		y-ybar	y-ybar^2	SUM	y-ypred	y-ypred^2	SUM
+6	2	16	14.05658843	ybar	18.9	Alpha = ybar-b(xbar)		-2.90	8.4100	1688.6600	1.943411573	3.776848543	574.8141596
+7	3.5	14.5	25.48349988			-1.2		14.50	210.2500		-10.98349988	120.6372697	
+8	4.25	13	31.19695561			y= a+bx		13.00	169.0000		-18.19695561	331.1291936	
+9	3.5	25	25.48349988					25.00	625.0000		-0.483499884	0.233772138	
+10	5	26	36.91041134					26.00	676.0000		-10.91041134	119.0370756	
+													
+						r-squared  =1-(Ssres/Sstot)							
+						0.659603378							
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
