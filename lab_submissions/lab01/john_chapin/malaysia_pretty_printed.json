@@ -1,0 +1,1121 @@
+{
+    "copyright": "Copyright (c) 2013 The New York Times Company.  All Rights Reserved.",
+    "response": {
+        "docs": [
+            {
+                "_id": "53e4932979881071316c3cc6",
+                "abstract": null,
+                "blog": [],
+                "byline": {
+                    "contributor": "Thomas Fuller contributed reporting.",
+                    "original": "By JAD MOUAWAD",
+                    "person": [
+                        {
+                            "firstname": "Jad",
+                            "lastname": "MOUAWAD",
+                            "organization": "",
+                            "rank": 1,
+                            "role": "reported"
+                        }
+                    ]
+                },
+                "document_type": "article",
+                "headline": {
+                    "main": "Malaysia Steps In to Save Its Reeling National Airline",
+                    "print_headline": "Malaysia Steps In to Save Its Reeling National Airline"
+                },
+                "keywords": [
+                    {
+                        "is_major": "N",
+                        "name": "organizations",
+                        "rank": "1",
+                        "value": "Malaysia Airlines"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "glocations",
+                        "rank": "2",
+                        "value": "Malaysia"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "3",
+                        "value": "Malaysia Airlines Flight 370"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "4",
+                        "value": "Malaysia Airlines Flight 17"
+                    }
+                ],
+                "lead_paragraph": "The government announced a stock buyback and a restructuring plan for Malaysia Airlines, which has lost two planes this year and is mired in debt.",
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/08/09/business/09air-pic1/09air-pic1-thumbWide.jpg",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/08/09/business/09air-pic1/09air-pic1-thumbWide.jpg",
+                        "width": 190
+                    },
+                    {
+                        "height": 374,
+                        "legacy": {
+                            "xlarge": "images/2014/08/09/business/09air-pic1/09air-pic1-articleLarge.jpg",
+                            "xlargeheight": "374",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/08/09/business/09air-pic1/09air-pic1-articleLarge.jpg",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/08/09/business/09air-pic1/09air-pic1-thumbStandard.jpg",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/08/09/business/09air-pic1/09air-pic1-thumbStandard.jpg",
+                        "width": 75
+                    }
+                ],
+                "news_desk": "Business",
+                "print_page": "1",
+                "pub_date": "2014-08-09T00:00:00Z",
+                "section_name": "Business Day",
+                "snippet": "The government announced a stock buyback and a restructuring plan for Malaysia Airlines, which has lost two planes this year and is mired in debt.",
+                "source": "The New York Times",
+                "subsection_name": "International Business",
+                "type_of_material": "News",
+                "web_url": "http://www.nytimes.com/2014/08/09/business/international/malaysia-airlines-to-be-taken-over-by-government.html",
+                "word_count": "853"
+            },
+            {
+                "_id": "53dd0d7a79881018c3d09173",
+                "abstract": "International experts examining crash site of Malaysia Airlines Flight 17 find remains of victims overlooked by local emergency personnel who first searched the debris; International monitors estimate that about 80 bodies remain unaccounted for.",
+                "blog": [],
+                "byline": {
+                    "contributor": "",
+                    "original": "By ANDREW E. KRAMER",
+                    "person": [
+                        {
+                            "firstname": "Andrew",
+                            "lastname": "KRAMER",
+                            "middlename": "E.",
+                            "organization": "",
+                            "rank": 1,
+                            "role": "reported"
+                        }
+                    ]
+                },
+                "document_type": "article",
+                "headline": {
+                    "main": "More Remains Found at Ukraine Crash Site",
+                    "print_headline": "More Remains Found at Ukraine Crash Site"
+                },
+                "keywords": [
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "1",
+                        "value": "Malaysia Airlines Flight 17"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "3",
+                        "value": "Ukraine"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "2",
+                        "value": "Aviation Accidents and Safety"
+                    }
+                ],
+                "lead_paragraph": "After delays, Dutch and Australian police officers and forensic experts are searching the wreckage of Malaysia Airlines Flight 17.",
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/08/03/world/ALT-O3-UKRAINE/ALT-O3-UKRAINE-thumbWide.jpg",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/08/03/world/ALT-O3-UKRAINE/ALT-O3-UKRAINE-thumbWide.jpg",
+                        "width": 190
+                    },
+                    {
+                        "height": 400,
+                        "legacy": {
+                            "xlarge": "images/2014/08/03/world/ALT-O3-UKRAINE/ALT-O3-UKRAINE-articleLarge.jpg",
+                            "xlargeheight": "400",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/08/03/world/ALT-O3-UKRAINE/ALT-O3-UKRAINE-articleLarge.jpg",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/08/03/world/ALT-O3-UKRAINE/ALT-O3-UKRAINE-thumbStandard.jpg",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/08/03/world/ALT-O3-UKRAINE/ALT-O3-UKRAINE-thumbStandard.jpg",
+                        "width": 75
+                    }
+                ],
+                "news_desk": "Foreign",
+                "print_page": "7",
+                "pub_date": "2014-08-03T00:00:00Z",
+                "section_name": "World",
+                "snippet": "After delays, Dutch and Australian police officers and forensic experts are searching the wreckage of Malaysia Airlines Flight 17.",
+                "source": "The New York Times",
+                "subsection_name": "Europe",
+                "type_of_material": "News",
+                "web_url": "http://www.nytimes.com/2014/08/03/world/europe/more-remains-found-at-ukraine-crash-site.html",
+                "word_count": "445"
+            },
+            {
+                "_id": "53c926347988102406602bad",
+                "abstract": "Open Source continues to follow the aftermath of the crash of Malaysia Airlines Flight 17 in rebel-held eastern Ukraine to supplement the latest coverage of New York Times reporters on the ground. Updates mix breaking news reports with new information gleaned from social networks.",
+                "blog": [],
+                "byline": {
+                    "original": "By ROBERT MACKEY",
+                    "person": [
+                        {
+                            "firstname": "Robert",
+                            "lastname": "MACKEY",
+                            "organization": "",
+                            "rank": 1,
+                            "role": "reported"
+                        }
+                    ]
+                },
+                "document_type": "blogpost",
+                "headline": {
+                    "kicker": "News",
+                    "main": "July 18 Updates on Malaysian Plane Crash in Ukraine"
+                },
+                "keywords": [
+                    {
+                        "name": "glocations",
+                        "rank": "2",
+                        "value": "Ukraine"
+                    },
+                    {
+                        "name": "glocations",
+                        "rank": "1",
+                        "value": "Malaysia"
+                    },
+                    {
+                        "name": "organizations",
+                        "rank": "1",
+                        "value": "Malaysia Airlines"
+                    },
+                    {
+                        "name": "subject",
+                        "rank": "2",
+                        "value": "Malaysia Airlines Flight 17"
+                    },
+                    {
+                        "name": "subject",
+                        "rank": "1",
+                        "value": "Aviation Accidents and Safety"
+                    }
+                ],
+                "lead_paragraph": null,
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/07/18/world/europe/18open_rebels/18open_rebels-thumbWide.jpg",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/07/18/world/europe/18open_rebels/18open_rebels-thumbWide.jpg",
+                        "width": 190
+                    },
+                    {
+                        "height": 399,
+                        "legacy": {
+                            "xlarge": "images/2014/07/18/world/europe/18open_rebels/18open_rebels-articleLarge.jpg",
+                            "xlargeheight": "399",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/07/18/world/europe/18open_rebels/18open_rebels-articleLarge.jpg",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/07/18/world/europe/18open_rebels/18open_rebels-thumbStandard.jpg",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/07/18/world/europe/18open_rebels/18open_rebels-thumbStandard.jpg",
+                        "width": 75
+                    }
+                ],
+                "news_desk": null,
+                "print_page": null,
+                "pub_date": "2014-07-18T09:47:02Z",
+                "section_name": null,
+                "snippet": "Open Source continues to follow the aftermath of the crash of Malaysia Airlines Flight 17 in rebel-held eastern Ukraine to supplement the latest coverage of New York Times reporters on the ground. Updates mix breaking news reports with new...",
+                "source": "The New York Times",
+                "subsection_name": null,
+                "type_of_material": "Blog",
+                "web_url": "http://news.blogs.nytimes.com/2014/07/18/latest-updates-on-malaysian-plane-crash-in-ukraine/",
+                "word_count": "4352"
+            },
+            {
+                "_id": "53cdca8e79881075cd5f221f",
+                "abstract": "Piece of wreckage from Malaysia Airlines Flight 17 bears telltale marks of small pieces of high-velocity shrapnel that apparently crippled jet in flight; wreckage suggests that destruction of aircraft was caused by supersonic missile that apparently exploded near the jet as it flew.",
+                "blog": [],
+                "byline": {
+                    "contributor": "Sabrina Tavernise and Noah Sneider contributed reporting from Ukraine.",
+                    "original": "By C. J. CHIVERS",
+                    "person": [
+                        {
+                            "firstname": "C.",
+                            "lastname": "CHIVERS",
+                            "middlename": "J.",
+                            "organization": "",
+                            "rank": 1,
+                            "role": "reported"
+                        }
+                    ]
+                },
+                "document_type": "article",
+                "headline": {
+                    "main": "Jet Wreckage Bears Signs of Impact by Supersonic Missile, Analysis Shows",
+                    "print_headline": "Jet Wreckage Bears Signs of Impact by Supersonic Missile, Analysis Shows"
+                },
+                "keywords": [
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "5",
+                        "value": "Ukraine"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "8",
+                        "value": "Airlines and Airplanes"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "1",
+                        "value": "Malaysia Airlines Flight 17"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "3",
+                        "value": "Missiles and Missile Defense Systems"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "organizations",
+                        "rank": "4",
+                        "value": "Malaysia Airlines"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "7",
+                        "value": "Bombs and Explosives"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "2",
+                        "value": "Aviation Accidents and Safety"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "6",
+                        "value": "Russia"
+                    }
+                ],
+                "lead_paragraph": "A piece from the Malaysia Airlines plane in Ukraine, examined in photographs by defense consultants, had damage consistent with that from a fragmenting warhead, the kind carried by an SA-11 missile.",
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/07/22/world/MISSILE01-copy/MISSILE01-thumbWide.jpg",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/07/22/world/MISSILE01-copy/MISSILE01-thumbWide.jpg",
+                        "width": 190
+                    },
+                    {
+                        "height": 400,
+                        "legacy": {
+                            "xlarge": "images/2014/07/22/world/MISSILE01/MISSILE01-articleLarge.jpg",
+                            "xlargeheight": "400",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/07/22/world/MISSILE01/MISSILE01-articleLarge.jpg",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/07/22/world/MISSILE01/MISSILE01-thumbStandard-v2.jpg",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/07/22/world/MISSILE01/MISSILE01-thumbStandard-v2.jpg",
+                        "width": 75
+                    }
+                ],
+                "news_desk": "Foreign",
+                "print_page": "6",
+                "pub_date": "2014-07-22T00:00:00Z",
+                "section_name": "World",
+                "snippet": "A piece from the Malaysia Airlines plane in Ukraine, examined in photographs by defense consultants, had damage consistent with that from a fragmenting warhead, the kind carried by an SA-11 missile.",
+                "source": "The New York Times",
+                "subsection_name": "Europe",
+                "type_of_material": "News",
+                "web_url": "http://www.nytimes.com/2014/07/22/world/europe/jet-wreckage-bears-signs-of-impact-by-supersonic-missile-analysis-shows.html",
+                "word_count": "907"
+            },
+            {
+                "_id": "53ca81167988105969cadadc",
+                "abstract": null,
+                "blog": [],
+                "byline": [],
+                "document_type": "multimedia",
+                "headline": {
+                    "main": "Victims of Malaysia Airlines Flight 17"
+                },
+                "keywords": [
+                    {
+                        "is_major": "N",
+                        "name": "glocations",
+                        "rank": "3",
+                        "value": "Netherlands"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "glocations",
+                        "rank": "6",
+                        "value": "Australia"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "organizations",
+                        "rank": "5",
+                        "value": "Malaysia Airlines"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "4",
+                        "value": "Aviation Accidents and Safety"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "1",
+                        "value": "Malaysia Airlines Flight 17"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "7",
+                        "value": "Acquired Immune Deficiency Syndrome"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "glocations",
+                        "rank": "2",
+                        "value": "Malaysia"
+                    }
+                ],
+                "lead_paragraph": "Among the 298 people aboard Malaysia Airlines Flight 17 were a renowned AIDS researcher, a Dutch senator and an Australian novelist.",
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/07/19/international-home/victims-composite-V3/victims-composite-V3-thumbWide.jpg",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/07/19/international-home/victims-composite-V3/victims-composite-V3-thumbWide.jpg",
+                        "width": 190
+                    },
+                    {
+                        "height": 400,
+                        "legacy": {
+                            "xlarge": "images/2014/07/19/international-home/victims-composite-V3/victims-composite-V3-articleLarge.jpg",
+                            "xlargeheight": "400",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/07/19/international-home/victims-composite-V3/victims-composite-V3-articleLarge.jpg",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/07/19/international-home/victims-composite-V3/victims-composite-V3-thumbStandard-v2.jpg",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/07/19/international-home/victims-composite-V3/victims-composite-V3-thumbStandard-v2.jpg",
+                        "width": 75
+                    }
+                ],
+                "news_desk": "World / Europe",
+                "print_page": null,
+                "pub_date": "2014-07-19T00:00:00Z",
+                "section_name": "World",
+                "snippet": "Among the 298 people aboard Malaysia Airlines Flight 17 were a renowned AIDS researcher, a Dutch senator and an Australian novelist.",
+                "source": "The New York Times",
+                "subsection_name": "Europe",
+                "type_of_material": "Interactive Feature",
+                "web_url": "http://www.nytimes.com/interactive/2014/07/19/world/europe/malaysia-airlines-plane-victims.html",
+                "word_count": null
+            },
+            {
+                "_id": "53c81e6b798810240660287e",
+                "abstract": null,
+                "blog": [],
+                "byline": [],
+                "document_type": "multimedia",
+                "headline": {
+                    "main": "Maps of the Crash of Malaysia Airlines Flight 17"
+                },
+                "keywords": [
+                    {
+                        "is_major": "N",
+                        "name": "organizations",
+                        "rank": "3",
+                        "value": "Malaysia Airlines"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "4",
+                        "value": "Malaysia Airlines Flight 17"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "1",
+                        "value": "Aviation Accidents and Safety"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "glocations",
+                        "rank": "2",
+                        "value": "Ukraine"
+                    }
+                ],
+                "lead_paragraph": "A Malaysia Airlines flight with nearly 300 people aboard crashed in eastern Ukraine near the Russian border on July 17.",
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/07/17/world/europe/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775-thumbWide.png",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/07/17/world/europe/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775-thumbWide.png",
+                        "width": 190
+                    },
+                    {
+                        "height": 303,
+                        "legacy": {
+                            "xlarge": "images/2014/07/17/world/europe/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775-articleLarge.png",
+                            "xlargeheight": "303",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/07/17/world/europe/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775-articleLarge.png",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/07/17/world/europe/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775-thumbStandard.png",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/07/17/world/europe/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775/maps-of-the-crash-of-malaysian-airlines-flight-mh17-1405624197775-thumbStandard.png",
+                        "width": 75
+                    }
+                ],
+                "news_desk": "World / Europe",
+                "print_page": null,
+                "pub_date": "2014-07-17T00:00:00Z",
+                "section_name": "World",
+                "snippet": "A Malaysia Airlines flight with nearly 300 people aboard crashed in eastern Ukraine near the Russian border on July 17.",
+                "source": "The New York Times",
+                "subsection_name": "Europe",
+                "type_of_material": "Interactive Feature",
+                "web_url": "http://www.nytimes.com/interactive/2014/07/17/world/europe/maps-of-the-crash-of-malaysian-airlines-flight-mh17.html",
+                "word_count": null
+            },
+            {
+                "_id": "53ccbe837988106bbe89b2b0",
+                "abstract": "Russia is presenting combination of conciliation and bluster over its handling of downed Malaysia Airlines jet, with Pres Vladimir V Putin seemingly probing for a way out of crisis without appearing to compromise with the West; country faces more Western sanctions; Ukraine rebels release bodies and flight recorders from downed plane.",
+                "blog": [],
+                "byline": {
+                    "contributor": "Reporting was contributed by Andrew Roth and Alexandra Odynova from Moscow; David M. Herszenhorn from Kiev; Sabrina Tavernise and Noah Sneider from Torez, Ukraine; and Chris Buckley from Kuala Lumpur, Malaysia.",
+                    "original": "By NEIL MacFARQUHAR",
+                    "person": [
+                        {
+                            "firstname": "Neil",
+                            "lastname": "MacFARQUHAR",
+                            "organization": "",
+                            "rank": 1,
+                            "role": "reported"
+                        }
+                    ]
+                },
+                "document_type": "article",
+                "headline": {
+                    "main": "Russia\u2019s Message on Jet: Conciliation and Bluster",
+                    "print_headline": "Russia\u2019s Message on Jet: Conciliation and Bluster"
+                },
+                "keywords": [
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "5",
+                        "value": "Aviation Accidents and Safety"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "1",
+                        "value": "Malaysia Airlines Flight 17"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "persons",
+                        "rank": "3",
+                        "value": "Putin, Vladimir V"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "4",
+                        "value": "Ukraine"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "organizations",
+                        "rank": "7",
+                        "value": "Malaysia Airlines"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "2",
+                        "value": "Russia"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "glocations",
+                        "rank": "6",
+                        "value": "Moscow (Russia)"
+                    }
+                ],
+                "lead_paragraph": "President Vladimir V. Putin seems to be probing for a way out of the crisis of the downed Malaysia Airlines jet without appearing to compromise with the West.",
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/07/22/world/UKRAINEjp01/UKRAINEjp01-thumbWide.jpg",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/07/22/world/UKRAINEjp01/UKRAINEjp01-thumbWide.jpg",
+                        "width": 190
+                    },
+                    {
+                        "height": 399,
+                        "legacy": {
+                            "xlarge": "images/2014/07/22/world/UKRAINEjp01/UKRAINEjp01-articleLarge.jpg",
+                            "xlargeheight": "399",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/07/22/world/UKRAINEjp01/UKRAINEjp01-articleLarge.jpg",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/07/22/world/UKRAINEjp01/UKRAINEjp01-thumbStandard.jpg",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/07/22/world/UKRAINEjp01/UKRAINEjp01-thumbStandard.jpg",
+                        "width": 75
+                    }
+                ],
+                "news_desk": "Foreign",
+                "print_page": "1",
+                "pub_date": "2014-07-22T00:00:00Z",
+                "section_name": "World",
+                "snippet": "President Vladimir V. Putin seems to be probing for a way out of the crisis of the downed Malaysia Airlines jet without appearing to compromise with the West.",
+                "source": "The New York Times",
+                "subsection_name": "Europe",
+                "type_of_material": "News",
+                "web_url": "http://www.nytimes.com/2014/07/22/world/europe/putin-calls-for-talks-in-ukraine-and-a-robust-crash-investigation.html",
+                "word_count": "1271"
+            },
+            {
+                "_id": "53caa5417988106b2650cdfe",
+                "abstract": "Downing of Malaysia Airlines Flight 17 in Ukraine ripples across multiple continents, bringing home in vivid relief consequences of struggle in country that seemed far removed from many; news of plane being shot down spurs confusion, anger, grief and disbelief, as well as charges and countercharges of who was responsible; American intelligence agencies believe missile was shot from Russian side of border, and separatists say they brought down plane themselves.",
+                "blog": [],
+                "byline": {
+                    "contributor": "Reporting was contributed by Keith Bradsher and Chris Buckley from Kuala Lumpur, Malaysia; C.J. Chivers and David Montgomery from the United States; Nicola Clark from Paris; Thomas Erdbrink from Amsterdam; David M. Herszenhorn from Kiev, Ukraine; Michelle Innis from Sydney, Australia; Neil MacFarquhar from Moscow; Michael S. Schmidt from Washington; and Sabrina Tavernise from Grabovo, Ukraine.",
+                    "original": "By PETER BAKER",
+                    "person": [
+                        {
+                            "firstname": "Peter",
+                            "lastname": "BAKER",
+                            "organization": "",
+                            "rank": 1,
+                            "role": "reported"
+                        }
+                    ]
+                },
+                "document_type": "article",
+                "headline": {
+                    "main": "With Jet Strike, War in Ukraine Is Felt Globally",
+                    "print_headline": "With Jet\u2019s Fall, War in Ukraine Is Felt Globally",
+                    "sub": "For Once-Remote Conflict, Jet Strike Is Devastating Turn"
+                },
+                "keywords": [
+                    {
+                        "is_major": "N",
+                        "name": "organizations",
+                        "rank": "5",
+                        "value": "Malaysia Airlines"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "persons",
+                        "rank": "8",
+                        "value": "Poroshenko, Petro Olekseyevich"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "10",
+                        "value": "Missiles and Missile Defense Systems"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "1",
+                        "value": "Ukraine"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "3",
+                        "value": "Russia"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "4",
+                        "value": "Aviation Accidents and Safety"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "persons",
+                        "rank": "7",
+                        "value": "Obama, Barack"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "2",
+                        "value": "Malaysia Airlines Flight 17"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "6",
+                        "value": "Airlines and Airplanes"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "persons",
+                        "rank": "9",
+                        "value": "Putin, Vladimir V"
+                    }
+                ],
+                "lead_paragraph": "The downing of Malaysia Airlines Flight 17 rippled across multiple continents, bringing home in vivid relief the consequences of a struggle that had seemed far removed for many.",
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/07/20/world/RECONSTRUCT02/RECONSTRUCT02-thumbWide.jpg",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/07/20/world/RECONSTRUCT02/RECONSTRUCT02-thumbWide.jpg",
+                        "width": 190
+                    },
+                    {
+                        "height": 400,
+                        "legacy": {
+                            "xlarge": "images/2014/07/20/world/RECONSTRUCT02/RECONSTRUCT02-articleLarge.jpg",
+                            "xlargeheight": "400",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/07/20/world/RECONSTRUCT02/RECONSTRUCT02-articleLarge.jpg",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/07/20/world/RECONSTRUCT01/RECONSTRUCT01-thumbStandard.jpg",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/07/20/world/RECONSTRUCT01/RECONSTRUCT01-thumbStandard.jpg",
+                        "width": 75
+                    }
+                ],
+                "news_desk": "Foreign",
+                "print_page": "1",
+                "pub_date": "2014-07-20T00:00:00Z",
+                "section_name": "World",
+                "snippet": "The downing of Malaysia Airlines Flight 17 rippled across multiple continents, bringing home in vivid relief the consequences of a struggle that had seemed far removed for many.",
+                "source": "The New York Times",
+                "subsection_name": "Europe",
+                "type_of_material": "News",
+                "web_url": "http://www.nytimes.com/2014/07/20/world/europe/with-jets-fall-war-in-ukraine-is-felt-globally.html",
+                "word_count": "2143"
+            },
+            {
+                "_id": "53ce2ea679881075cd5f230c",
+                "abstract": "Bodies and flight recorders recovered from crash site of Malaysia Airlines Flight 17 are delivered safely from rebel control to Ukrainian city Kharkiv; forensics officials raise strong possibility that remains of many victims are still buried in wreckage and that identification could take weeks or months to complete.",
+                "blog": [],
+                "byline": {
+                    "contributor": "Andrew Higgins reported from Kharkiv, and Rick Gladstone from New York. Sabrina Tavernise contributed reporting from Snizhne, Ukraine; David M. Herszenhorn from Kiev, Ukraine; and Mark Mazzetti from Washington.",
+                    "original": "By ANDREW HIGGINS and RICK GLADSTONE",
+                    "person": [
+                        {
+                            "firstname": "Andrew",
+                            "lastname": "HIGGINS",
+                            "organization": "",
+                            "rank": 1,
+                            "role": "reported"
+                        },
+                        {
+                            "firstname": "Rick",
+                            "lastname": "GLADSTONE",
+                            "organization": "",
+                            "rank": 2,
+                            "role": "reported"
+                        }
+                    ]
+                },
+                "document_type": "article",
+                "headline": {
+                    "main": "More Bodies Possible at Ukraine Crash Site, Forensics Officials Say",
+                    "print_headline": "More Bodies Possible at Ukraine Crash Site, Forensics Officials Say"
+                },
+                "keywords": [
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "5",
+                        "value": "Deaths (Fatalities)"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "glocations",
+                        "rank": "8",
+                        "value": "Malaysia"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "1",
+                        "value": "Malaysia Airlines Flight 17"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "3",
+                        "value": "Ukraine"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "glocations",
+                        "rank": "4",
+                        "value": "Kharkiv (Ukraine)"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "organizations",
+                        "rank": "7",
+                        "value": "Malaysia Airlines"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "2",
+                        "value": "Aviation Accidents and Safety"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "glocations",
+                        "rank": "6",
+                        "value": "Netherlands"
+                    }
+                ],
+                "lead_paragraph": "Bodies from the downed Malaysia Airlines jet were delivered to the eastern Ukrainian city of Kharkiv on Tuesday, but officials said that the remains of victims may still be buried in the wreckage.",
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/07/23/world/UKRAINE-REFER/UKRAINE-REFER-thumbWide.jpg",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/07/23/world/UKRAINE-REFER/UKRAINE-REFER-thumbWide.jpg",
+                        "width": 190
+                    },
+                    {
+                        "height": 400,
+                        "legacy": {
+                            "xlarge": "images/2014/07/23/world/UKRAINE-REFER/UKRAINE-REFER-articleLarge.jpg",
+                            "xlargeheight": "400",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/07/23/world/UKRAINE-REFER/UKRAINE-REFER-articleLarge.jpg",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/07/23/world/UKRAINE-REFER/UKRAINE-REFER-thumbStandard-v2.jpg",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/07/23/world/UKRAINE-REFER/UKRAINE-REFER-thumbStandard-v2.jpg",
+                        "width": 75
+                    }
+                ],
+                "news_desk": "Foreign",
+                "print_page": "9",
+                "pub_date": "2014-07-23T00:00:00Z",
+                "section_name": "World",
+                "snippet": "Bodies from the downed Malaysia Airlines jet were delivered to the eastern Ukrainian city of Kharkiv on Tuesday, but officials said that the remains of victims may still be buried in the wreckage.",
+                "source": "The New York Times",
+                "subsection_name": "Europe",
+                "type_of_material": "News",
+                "web_url": "http://www.nytimes.com/2014/07/23/world/europe/malaysia-airlines-jet-ukraine.html",
+                "word_count": "1185"
+            },
+            {
+                "_id": "53c9c7a97988105969cada0a",
+                "abstract": "Netherlands finds itself thrust squarely into unaccustomed role at center of realpolitik of the crisis in Ukraine after downing of Malaysia Airlines Flight 17, as 189 Dutch nationals were killed in the crash; prospect that Russian-backed separatists might be responsible for crash poses major dilemma for Dutch, as Russia is country's third largest trade partner.",
+                "blog": [],
+                "byline": {
+                    "contributor": "",
+                    "original": "By THOMAS ERDBRINK",
+                    "person": [
+                        {
+                            "firstname": "Thomas",
+                            "lastname": "ERDBRINK",
+                            "organization": "",
+                            "rank": 1,
+                            "role": "reported"
+                        }
+                    ]
+                },
+                "document_type": "article",
+                "headline": {
+                    "main": "The Netherlands, a Nation in Mourning but Mindful of Ties to Russia",
+                    "print_headline": "Dutch in Mourning but Mindful of Ties to Russia"
+                },
+                "keywords": [
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "5",
+                        "value": "Russia"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "persons",
+                        "rank": "8",
+                        "value": "Putin, Vladimir V"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "1",
+                        "value": "Netherlands"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "3",
+                        "value": "Airlines and Airplanes"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "organizations",
+                        "rank": "4",
+                        "value": "Malaysia Airlines"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "persons",
+                        "rank": "7",
+                        "value": "Rutte, Mark"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "subject",
+                        "rank": "2",
+                        "value": "Malaysia Airlines Flight 17"
+                    },
+                    {
+                        "is_major": "Y",
+                        "name": "glocations",
+                        "rank": "6",
+                        "value": "Ukraine"
+                    },
+                    {
+                        "is_major": "N",
+                        "name": "subject",
+                        "rank": "9",
+                        "value": "International Trade and World Market"
+                    }
+                ],
+                "lead_paragraph": "For the Dutch, the prospect that Russian-backed separatists might be responsible for the loss of Malaysia Airlines Flight 17 poses a dilemma.",
+                "multimedia": [
+                    {
+                        "height": 126,
+                        "legacy": {
+                            "wide": "images/2014/07/19/world/DUTCH/DUTCH-thumbWide.jpg",
+                            "wideheight": "126",
+                            "widewidth": "190"
+                        },
+                        "subtype": "wide",
+                        "type": "image",
+                        "url": "images/2014/07/19/world/DUTCH/DUTCH-thumbWide.jpg",
+                        "width": 190
+                    },
+                    {
+                        "height": 347,
+                        "legacy": {
+                            "xlarge": "images/2014/07/19/world/DUTCH/DUTCH-articleLarge.jpg",
+                            "xlargeheight": "347",
+                            "xlargewidth": "600"
+                        },
+                        "subtype": "xlarge",
+                        "type": "image",
+                        "url": "images/2014/07/19/world/DUTCH/DUTCH-articleLarge.jpg",
+                        "width": 600
+                    },
+                    {
+                        "height": 75,
+                        "legacy": {
+                            "thumbnail": "images/2014/07/19/world/DUTCH/DUTCH-thumbStandard.jpg",
+                            "thumbnailheight": "75",
+                            "thumbnailwidth": "75"
+                        },
+                        "subtype": "thumbnail",
+                        "type": "image",
+                        "url": "images/2014/07/19/world/DUTCH/DUTCH-thumbStandard.jpg",
+                        "width": 75
+                    }
+                ],
+                "news_desk": "Foreign",
+                "print_page": "10",
+                "pub_date": "2014-07-19T00:00:00Z",
+                "section_name": "World",
+                "snippet": "For the Dutch, the prospect that Russian-backed separatists might be responsible for the loss of Malaysia Airlines Flight 17 poses a dilemma.",
+                "source": "The New York Times",
+                "subsection_name": "Europe",
+                "type_of_material": "News",
+                "web_url": "http://www.nytimes.com/2014/07/19/world/europe/the-netherlands-a-nation-in-mourning-but-mindful-of-ties-to-russia.html",
+                "word_count": "894"
+            }
+        ],
+        "meta": {
+            "hits": 15674,
+            "offset": 0,
+            "time": 42
+        }
+    },
+    "status": "OK"
+}
