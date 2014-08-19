@@ -1,0 +1,263 @@
+
+# coding: utf-8
+
+# # Multiple Linear Regression Lab
+
+# In this lab we will regress the price of an apartment on to several explanatory variables. The following instances comprise our training set:
+
+ #               | price 	| size 	| num_bedrooms 	| age 	| city          	|
+#|-------	|------	|--------------	|-----	|---------------	|
+#| 2500  	| 500  	| 1            	| 1   	| New York      	|
+#| 2400  	| 600  	| 1            	| 40  	| San Francisco 	|
+#| 900   	| 800  	| 2            	| 2   	| Chapel Hill   	|
+#| 1700  	| 400  	| 0            	| 10  	| New York      	|
+#| 2100  	| 450  	| 0            	| 25  	| New York      	|
+#| 3000  	| 900  	| 2            	| 5   	| San Francisco 	|
+#| 700   	| 700  	| 1            	| 6   	| Chapel Hill   	|
+                
+# ## Representing the Data and One-Hot Encoding
+
+# In[1]:
+
+# First, let's create a representation of the values of the response variable. We can simply create a list.
+# TODO create a list of the values of the response variable
+# y = ...
+y =[2500, 2400, 900, 1700, 2100, 3000, 700]
+
+
+# Creating `y` was easy. Now let's represent the explanatory variables.
+# 
+# The `city` explanatory variable is categorical. How can we create a feature to represent it?  
+# 
+# `city` has three possible values in this data set: `New York`, `San Francisco`, and `Chapel Hill`. We could represent each of these states with an integer. That is, we will represent `New York` with 0, `San Francisco` with 1, and `Chapel Hill` with 2. While this approach seems intuitive, it encodes an artificial order to the values of the variable. Cities have no natural order. We don't want to represent `Chapel Hill` as being twice `San Francisco`.
+# 
+# Instead, we will create features using a technique called **one-hot**, or **one-of-k**, encoding. One-hot encoding creates a binary-valued feature for each of the possible values of the variable. That is, instead of representing the `city` explanatory variable with one integer-valued feature, we will represent it with three binary-valued features.
+# 
+# `New York` = [1, 0, 0]
+# `San Francisco` = [0, 1, 0]
+# `Chapel Hill` = [0, 0, 1]
+# 
+# One-hot encoding does not encode an artificial order, but does increase the number of features. Later we will discuss why using many features, or high-dimensional feature spaces, can be problematic, and how to mitigate those problems.
+
+# In[109]:
+
+# One-hot encode the `city` explanatory variable, and create a list of lists to represent the features.
+# The first two training instances have been added for you.
+X_raw = [
+     [500, 1, 1, 1, 0, 0],
+     [600, 1, 4, 0, 1, 0],
+     [800, 2, 2, 0, 0, 1],
+     [400, 0, 10, 1, 0, 0],
+     [450, 0, 25, 1, 0, 0],
+     [900, 2, 5, 0, 1, 0],
+    [700, 1, 6, 0, 0, 1]
+
+    
+    
+        
+     # TODO encode the other training instances
+]
+
+
+# In[3]:
+
+# Manually one-hot encoding will become tedious. sklearn can automatically one-hot encode dicts of explanatory variables.
+# Import the DictVectorizer class from the feature_extraction module.
+# http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html
+
+
+# In[77]:
+
+from sklearn.feature_extraction import DictVectorizer
+# Assume that your data is provided as a list of dicts.
+X_raw = [
+         {'size': 500, 'num_bedrooms': 1, 'age': 1, 'city': 'New York'},
+         {'size': 600, 'num_bedrooms': 1, 'age': 40, 'city': 'San Francisco'},
+         {'size': 800, 'num_bedrooms': 2, 'age': 2, 'city': 'Chapel Hill'},
+         {'size': 400, 'num_bedrooms': 0, 'age': 10, 'city': 'New York'},
+         {'size': 450, 'num_bedrooms': 0, 'age': 25, 'city': 'New York'},
+         {'size': 900, 'num_bedrooms': 2, 'age': 5, 'city': 'San Francisco'},
+         {'size': 700, 'num_bedrooms': 1, 'age': 6, 'city': 'Chapel Hill'}
+]
+
+
+# In[7]:
+
+# Instantiate a DictVectorizer
+test = DictVectorizer()
+test
+
+
+# In[24]:
+
+# DictVectorizer is a Transformer. Transformers implement the methods fit() and transform(). 
+# First fit the vectorizer on your explanatory variables so that it can determine the features.
+#test.fit(X_raw)
+test.fit(X_raw)
+test
+
+
+# In[23]:
+
+# Then transform X using the vectorizer to one-hot encode the explanatory variables.
+X_train = test.transform(X_raw)
+
+
+# In[25]:
+
+# Print the features
+print X_train
+
+
+# In[31]:
+
+# Those look weird. Check X_train's type
+type(X_train)
+
+
+# In[32]:
+
+# X_train is a sparse matrix. We will discuss these more later. To get the dense form of a sparse matrix, use the method todense()
+# TODO now print the dense feature matrix.
+# Note that DictVectorizer orders the features arbitrarily.
+X_train.todense()
+
+
+# ## Training the Model
+
+# Now that we have created representations of the values of the response and explanatory variables for the training instances, let's train a regressor.
+
+# In[34]:
+
+# Import LinearRegression from the linear_model module
+from sklearn.linear_model import LinearRegression
+
+
+# In[40]:
+
+# Instantiate a LinearRegression regressor
+regressor = LinearRegression()
+
+
+# In[44]:
+
+# Train (fit) the model
+regressor.fit(X_train, y)
+
+
+# # Inspecting the Model
+
+# In[48]:
+
+# Print the model's parameters. They are attributes of the object. Consult the documentation for their names.
+print regressor
+
+
+# ## Making Predictions
+
+ #               Assume that you have the following test set.
+
+#| price 	| size 	| num_bedrooms 	| age 	| city          	|
+#|-------	|------	|--------------	|-----	|---------------	|
+#| 2500  	| 500  	| 0            	| 50  	| New York      	|
+#| 2200  	| 550  	| 0            	| 2   	| San Francisco 	|
+#| 1200  	| 1000 	| 2            	| 12  	| Chapel Hill   	|
+#| 3300  	| 850  	| 2            	| 10  	| New York      	|
+                
+# In[96]:
+
+# Create a list of the values of the response variable for the test set
+# y_test = ...
+y_test = [2500, 2200, 1200, 3300]
+
+
+# In[97]:
+
+# Create a list of dicts representing the explanatory variables.
+# X_test_raw = ...
+X_test_raw = [{'size' : 500, 'num_bedrooms' : 0, 'age': 50, 'city': 'New York'},
+              {'size' : 550, 'num_bedrooms' : 0, 'age': 2, 'city': 'San Francisco'},
+              {'size' : 1000, 'num_bedrooms' : 2, 'age': 12, 'city': 'Chapel Hill'},
+               {'size' : 850, 'num_bedrooms' : 2, 'age': 10, 'city': 'New York'}]
+print X_test_raw
+
+
+# In[98]:
+
+# Now we need to create a feature representation for the test set's explanatory variables.
+# If we instantiate a new DictVectorizer and transform the test set, it might order the features differently than in the training data.
+# This would render the model meaningless.
+# vectorizer has been fit on the training data; all subsequent transformations it makes will have the same order.
+# TODO transform X_test_raw using vectorizer
+# X_test = ...
+X_test = test.transform(X_test_raw)
+print X_test
+
+
+# In[99]:
+
+# Now print X_test
+print X_test.todense()
+
+
+# In[100]:
+
+# TODO print the parameters of the model. Manually predict the price of the first test instance.
+
+regressor2 = LinearRegression(X_test)
+print regressor2
+
+
+# In[105]:
+
+# Let's make some predictions using the trained regressor.
+# TODO predict the value of the response variable for the test instances
+# predictions = 
+predictions = regressor.predict(X_test)
+print predictions
+
+
+# In[104]:
+
+# Print each of the predictions on a new line
+for p in predictions:
+    print p
+
+
+# In[108]:
+
+# Print each of the predictions and the corresponding true price on a new line
+# Hint: try the built-in function `enumerate`
+for i, p in enumerate(predictions):
+    print p,y_test[i]
+    
+
+
+# ## Evaluating the Model
+
+# In[107]:
+
+# Now let's measure the model's performance.
+# use the estimator's score method to calculate r-squared.
+regressor.score(X_test, y_test)
+
+
+# In[40]:
+
+# TODO interpret the r-squared score. What does it mean? How well does the model perform?
+# Answer# Since the r-squared score is 85%, the model can be useful in
+# predicting the performance between the response and the explanatory variables. 
+
+
+# ## Improving the Model
+
+# In[ ]:
+
+# TODO Are all of the explanatory variables useful? 
+# Does the model perform better using a subset of the explanatory variables? Try to improve the model's performance by using a subset of the explanatory variables.
+
+
+# In[ ]:
+
+# TODO How does this model compare to a simple linear regression model? Train another model using only one of the explanatory variables.
+
