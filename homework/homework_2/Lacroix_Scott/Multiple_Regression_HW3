@@ -1,0 +1,150 @@
+
+# coding: utf-8
+
+# In[1]:
+
+import sklearn
+from sklearn.linear_model import LinearRegression
+
+
+# In[2]:
+
+#creating a list of responsive values
+y = [28, 21, 91, 24, 26]
+print y
+
+
+# In[6]:
+
+# utilize sklearn to automatically one-hot code the dictionary of explanatory
+#variables
+from sklearn.feature_extraction import DictVectorizer
+X_raw = [{'size': 0.1, 'rating': 3.1, 'variety': 8},
+         {'size': 0.18, 'rating': 4, 'variety': 29},
+         {'size': 0.15, 'rating': 4.5, 'variety': 11},
+         {'size': 0.09, 'rating': 4.1, 'variety': 20},
+         {'size': 0.12, 'rating': 4.1, 'variety': 35}]
+
+
+# In[7]:
+
+#Instantiate the DicVectorizer
+test = DictVectorizer()
+test
+
+
+# In[8]:
+
+# Fit the vectorizer on your explanatory variables
+test.fit(X_raw)
+
+
+# In[12]:
+
+# Transform vectorize to one-hot encode the explanatory variable
+X_train = test.transform(X_raw)
+print X_train
+
+
+# In[13]:
+
+# transform explanatory variables into dense (matrix) form
+X_train.todense()
+
+
+# In[18]:
+
+#Onto training the model. Import linear regression and instantiate the linear
+#regression regressor
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+
+
+# In[19]:
+
+#Train the (fit) model
+regressor.fit(X_train, y)
+
+
+# In[20]:
+
+#Print the model parameters
+print regressor
+
+
+# In[21]:
+
+# Making predictions. Create a list of y values of the response variables to test
+y_test = [21, 24, 39, 25, 35]
+print y_test
+
+
+# In[22]:
+
+# Create a list of dicts representing the explanatory x variables.
+X_test_raw = [{'size': 0.4, 'rating': 4, 'variety': 9},
+              {'size': 0.05, 'rating': 4.75, 'variety': 11},
+              {'size': 0.5, 'rating': 4.1, 'variety': 13},
+              {'size': 0.086, 'rating': 4.1, 'variety': 13},
+              {'size': 0.2, 'rating': 4.25, 'variety': 15},]
+
+
+# In[23]:
+
+#Sanity check
+print X_test_raw
+
+
+# In[24]:
+
+#Instantiate the new explanatory test set. Transform the test set, using
+#vectorizer
+X_test = test.transform(X_test_raw)
+print X_test
+
+
+# In[25]:
+
+#Dense it
+X_test.todense()
+
+
+# In[27]:
+
+#print the parameters of the model and start predictions
+regressor2 = LinearRegression(X_test)
+print regressor2
+
+predictions = regressor.predict(X_test)
+print predictions
+
+
+# In[28]:
+
+# print each prediction on a new line
+for p in predictions:
+    print p
+
+
+# In[29]:
+
+# print each of the predictions by the corresponding price via enumerate
+for i, p in enumerate(predictions):
+    print p, y_test[i]
+
+
+# In[30]:
+
+#Measure the model's performance
+#Calculate r-squared
+regressor.score(X_test, y_test)
+
+
+# In[ ]:
+
+# Interpret the r-squared score
+# the r-squared score indicates that there is not a relationship between
+# the response variable and the explanatory variables.
+# The price of a item is not dependent upon the size, rating nor different
+#iterations of the product.
+
