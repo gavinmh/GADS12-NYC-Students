@@ -35,3 +35,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ignoring iPython folder #
+###########################
+**/.ipynb_checkpoints
